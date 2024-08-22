@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign In</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="top-right-corner">
+      <p>Not an AltSchooler yet? <a href="form.html" style="color: blue;">Register Now!</a></p>
+    </div>
+    <div class="container">
+      <!-- Left Section with Image and Text -->
+      <div class="left-section">
+        <img src="./Images/logo.png" alt="AltSchool Logo" class="logo" />
+        <h2>Learn highly sought after skills without hassle.</h2>
+        <div class="social-icons">
+          <a href="#"><img src="./Images/twitter.png" alt="Twitter" /></a>
+          <a href="#"><img src="./Images/facebook.png" alt="Facebook" /></a>
+          <a href="#"><img src="./Images/instagram.png" alt="Instagram" /></a>
+          <a href="#"><img src="./Images/linkedin.png" alt="LinkedIn" /></a>
+        </div>
+        <p>Tel: 0800ALTSCHOOL</p>
+        <p>&copy;2024 AltSchool Africa. All rights reserved.</p>
+      </div>
+
+      <main>
+        <h1>Sign In</h1>
+        <p>
+          Enter your email address and password to securely log in to AltSchool
+          Student Portal
+        </p>
+
+        <form action="dashboard.html" method="POST">
+          <div>
+            <label for="email">Email:</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="user@sample.com"
+              required
+            />
+            <small>Enter your email address</small>
+          </div>
+
+          <div>
+            <label for="password">Password:</label>
+            <input
+              type="password"
+              id="password"
+              name="password"
+              placeholder="Enter your password"
+              required
+            />
+            <small>Enter your password</small>
+          </div>
+
+          <div>
+            <button type="submit">Proceed to Dashboard</button>
+          </div>
+        </form>
+
+        <p>Forgot your password? <a href="reset_password.html">Reset Now!</a></p>
+      </main>
+    </div>
+  </body>
+</html>

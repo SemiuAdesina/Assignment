@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Me - AltSchool Africa</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>About Me</h1>
+    </header>
+    <main>
+      <section>
+        <h2>Introduction</h2>
+        <p>
+          Hello! I'm passionate about software engineering and currently
+          studying at AltSchool Africa.
+        </p>
+      </section>
+
+      <!-- Image -->
+      <section>
+        <h2>Image</h2>
+        <img src="media elements/image.png" alt="A picture of me" />
+      </section>
+
+      <!-- Picture Element -->
+      <section>
+        <h2>Picture Element</h2>
+        <picture>
+          <source
+            media="(min-width: 1024px)"
+            srcset="media elements/image.png"
+          />
+          <source
+            media="(min-width: 768px)"
+            srcset="media elements/image.png"
+          />
+          <img src="media elements/image.png" alt="A picture of me" />
+        </picture>
+      </section>
+
+      <!-- Audio -->
+      <section>
+        <h2>Audio</h2>
+        <audio controls>
+          <source src="media elements/Audio.m4a" type="audio/m4a" />
+          Your browser does not support the audio element.
+        </audio>
+      </section>
+
+      <!-- Video -->
+      <section>
+        <h2>Video</h2>
+        <video width="320" height="240" controls>
+          <source src="media elements/video.MP4" type="video/mp4" />
+        </video>
+      </section>
+
+      <!-- Embed -->
+      <section>
+        <h2>Embed</h2>
+        <embed
+          src="media elements/GitVersionControlCookbookSecondEdition_ColorImages-2.pdf"
+          width="600"
+          height="400"
+        />
+      </section>
+    </main>
+    <footer>
+      <a href="table.html">Go to Courses Page</a>
+      <!-- Link to the table page -->
+    </footer>
+  </body>
+</html>

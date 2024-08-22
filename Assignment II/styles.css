@@ -1,0 +1,128 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+/* Table Specific Styles (For table.html) */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #333;
+    color: white;
+}
+
+/* Media Elements (For media.html) */
+img, video, audio, embed {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Styles for Phones (Max width: 600px) */
+@media (max-width: 600px) {
+    body {
+        font-size: 14px;
+    }
+
+    table {
+        font-size: 12px;
+    }
+
+    img, embed, video, audio {
+        width: 100%;
+    }
+
+    section {
+        margin-bottom: 20px;
+    }
+}
+
+/* Styles for Tablets (Min width: 601px and Max width: 1024px) */
+@media (min-width: 601px) and (max-width: 1024px) {
+    body {
+        font-size: 16px;
+    }
+
+    table {
+        font-size: 14px;
+    }
+
+    img, embed, video, audio {
+        width: 80%;
+    }
+
+    section {
+        margin-bottom: 25px;
+    }
+}
+
+/* Styles for Laptops (Min width: 1025px and Max width: 1440px) */
+@media (min-width: 1025px) and (max-width: 1440px) {
+    body {
+        font-size: 18px;
+    }
+
+    table {
+        font-size: 16px;
+    }
+
+    img, embed, video, audio {
+        width: 70%;
+    }
+
+    section {
+        margin-bottom: 30px;
+    }
+}
+
+/* Styles for Desktops (Min width: 1441px) */
+@media (min-width: 1441px) {
+    body {
+        font-size: 20px;
+    }
+
+    table {
+        font-size: 18px;
+    }
+
+    img, embed, video, audio {
+        width: 60%;
+    }
+
+    section {
+        margin-bottom: 35px;
+    }
+}
